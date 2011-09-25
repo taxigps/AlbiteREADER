@@ -62,7 +62,7 @@ public class FileBrowser extends List implements CommandListener {
     /**
      * Command fired on file selection.
      */
-    public static final Command SELECT_FILE_COMMAND = new Command("Select", Command.OK, 1);
+    public static final Command SELECT_FILE_COMMAND = new Command("确定", Command.OK, 1);
 
     private String currDirName;
     private String currFile;

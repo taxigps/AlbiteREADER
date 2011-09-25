@@ -18,10 +18,11 @@ public class HyphenatedTextRegion extends TextRegion {
             final int length,
             final byte style,
             final byte color,
+            final boolean chinese,
             final int chunkPosition,
             final int chunkLength) {
 
-        super(x, y, width, height, position, length, style, color);
+        super(x, y, width, height, position, length, style, color, chinese);
         this.chunkOffset = (short) (chunkPosition - position);
         this.chunkLength = (short) chunkLength;
     }
@@ -40,6 +41,7 @@ public class HyphenatedTextRegion extends TextRegion {
                 lastRegion.length,
                 lastRegion.style,
                 lastRegion.color,
+                lastRegion.chinese,
                 chunkPosition,
                 chunkLength);
     }

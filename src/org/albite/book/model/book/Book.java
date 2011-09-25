@@ -67,8 +67,8 @@ public abstract class Book
     /*
      * Main info
      */
-    protected String                title                    = "Untitled";
-    protected String                author                   = "Unknown Author";
+    protected String                title                    = "无";
+    protected String                author                   = "佚名";
     //#if !(TinyMode || TinyModeExport || LightMode || LightModeExport)
     protected String                language            = Languages.NO_LANGUAGE;
     protected String                currentLanguage     = Languages.NO_LANGUAGE;
@@ -525,18 +525,18 @@ public abstract class Book
 
         StringItem s;
 
-        s = new StringItem("Title:", title);
+        s = new StringItem("书名：", title);
         s.setLayout(StringItem.LAYOUT_LEFT);
 
         f.append(s);
 
-        s = new StringItem("Author:", author);
+        s = new StringItem("作者：", author);
         f.append(s);
 
-        s = new StringItem("Language:", getLanguageAlias());
+        s = new StringItem("语种：", getLanguageAlias());
         f.append(s);
 
-        s = new StringItem("Language:", language);
+        s = new StringItem("语种：", language);
     }
 
     public final BookmarkManager getBookmarkManager() {
@@ -557,7 +557,7 @@ public abstract class Book
 
     public final void setCurrentChapterPos(final int pos) {
         if (pos < 0 || pos >= currentChapter.getTextBuffer().length) {
-            throw new IllegalArgumentException("Position is wrong");
+            throw new IllegalArgumentException("错误的位置");
         }
 
         currentChapter.setCurrentPosition(pos);
@@ -591,7 +591,7 @@ public abstract class Book
                     true);
          }
 
-        throw new BookException("Unsupported file format.");
+        throw new BookException("不支持的文件格式。");
     }
 
     protected final void linkChapters() {
@@ -620,7 +620,7 @@ public abstract class Book
         if (chapterFilesize <= maxChapterSize) {
             chapters.addElement(new Chapter(
                         chapterFile, chapterFilesize, pathReference,
-                        "Chapter #" + (chapterNumber + 1),
+                        "章节 #" + (chapterNumber + 1),
                         processHtmlEntities, chapterNumber)
             );
 
@@ -643,7 +643,7 @@ public abstract class Book
                             chapterFile, k * maxChapterSize, chapSize),
                         chapSize,
                         pathReference,
-                        "Chapter #" + (chapterNumber + k + 1),
+                        "章节 #" + (chapterNumber + k + 1),
                         processHtmlEntities,
                         chapterNumber + k
                         ));

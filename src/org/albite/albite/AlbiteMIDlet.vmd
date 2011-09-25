@@ -737,31 +737,31 @@
                 <Component componentID="102" typeID="Cjavax.microedition.lcdui.Command">
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VDISMISS_COMMAND"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
-                    <Property name="label" typeID="Pjava.lang.String" value="VDismiss"/>
+                    <Property name="label" typeID="Pjava.lang.String" value="V离开"/>
                     <Property name="type" typeID="Pint" value="V4"/>
                 </Component>
                 <Component componentID="118" typeID="Cjavax.microedition.lcdui.Command">
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VCANCEL_COMMAND"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
-                    <Property name="label" typeID="Pjava.lang.String" value="VCancel"/>
+                    <Property name="label" typeID="Pjava.lang.String" value="V取消"/>
                     <Property name="type" typeID="Pint" value="V3"/>
                 </Component>
                 <Component componentID="205" typeID="Cjavax.microedition.lcdui.Command">
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VBACK_COMMAND"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
-                    <Property name="label" typeID="Pjava.lang.String" value="VBack"/>
+                    <Property name="label" typeID="Pjava.lang.String" value="V返回"/>
                     <Property name="type" typeID="Pint" value="V2"/>
                 </Component>
                 <Component componentID="209" typeID="Cjavax.microedition.lcdui.Command">
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VNEXT_COMMAND"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
-                    <Property name="label" typeID="Pjava.lang.String" value="VNext"/>
+                    <Property name="label" typeID="Pjava.lang.String" value="V继续"/>
                     <Property name="type" typeID="Pint" value="V4"/>
                 </Component>
                 <Component componentID="292" typeID="Cjavax.microedition.lcdui.Command">
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VCLOSE_COMMAND"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
-                    <Property name="label" typeID="Pjava.lang.String" value="VClose"/>
+                    <Property name="label" typeID="Pjava.lang.String" value="V关闭"/>
                     <Property name="type" typeID="Pint" value="V3"/>
                 </Component>
                 <Component componentID="329" typeID="C#SVGMenuSelectCommand">
@@ -774,49 +774,49 @@
                 <Component componentID="359" typeID="Cjavax.microedition.lcdui.Command">
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VGO_COMMAND"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
-                    <Property name="label" typeID="Pjava.lang.String" value="VGo!"/>
+                    <Property name="label" typeID="Pjava.lang.String" value="V确定"/>
                     <Property name="type" typeID="Pint" value="V4"/>
                 </Component>
                 <Component componentID="550" typeID="Cjavax.microedition.lcdui.Command">
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VNO_COMMAND"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
-                    <Property name="label" typeID="Pjava.lang.String" value="VNo"/>
+                    <Property name="label" typeID="Pjava.lang.String" value="V否"/>
                     <Property name="type" typeID="Pint" value="V2"/>
                 </Component>
                 <Component componentID="548" typeID="Cjavax.microedition.lcdui.Command">
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VYES_COMMAND"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
-                    <Property name="label" typeID="Pjava.lang.String" value="VYes"/>
+                    <Property name="label" typeID="Pjava.lang.String" value="V是"/>
                     <Property name="type" typeID="Pint" value="V4"/>
                 </Component>
                 <Component componentID="533" typeID="Cjavax.microedition.lcdui.Command">
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VAPPLY_COMMAND"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
-                    <Property name="label" typeID="Pjava.lang.String" value="VApply"/>
+                    <Property name="label" typeID="Pjava.lang.String" value="V应用"/>
                     <Property name="type" typeID="Pint" value="V4"/>
                 </Component>
                 <Component componentID="695" typeID="Cjavax.microedition.lcdui.Command">
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VRESTART_COMMAND"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
-                    <Property name="label" typeID="Pjava.lang.String" value="VRestart"/>
+                    <Property name="label" typeID="Pjava.lang.String" value="V重启"/>
                     <Property name="type" typeID="Pint" value="V1"/>
                 </Component>
                 <Component componentID="921" typeID="Cjavax.microedition.lcdui.Command">
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VDELETE_COMMAND"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
-                    <Property name="label" typeID="Pjava.lang.String" value="VDelete"/>
+                    <Property name="label" typeID="Pjava.lang.String" value="V删除"/>
                     <Property name="type" typeID="Pint" value="V1"/>
                 </Component>
                 <Component componentID="919" typeID="Cjavax.microedition.lcdui.Command">
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VEDIT_COMMAND"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
-                    <Property name="label" typeID="Pjava.lang.String" value="VEdit"/>
+                    <Property name="label" typeID="Pjava.lang.String" value="V编辑"/>
                     <Property name="type" typeID="Pint" value="V1"/>
                 </Component>
                 <Component componentID="917" typeID="Cjavax.microedition.lcdui.Command">
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VADD_COMMAND"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
-                    <Property name="label" typeID="Pjava.lang.String" value="VAdd"/>
+                    <Property name="label" typeID="Pjava.lang.String" value="V增加"/>
                     <Property name="type" typeID="Pint" value="V1"/>
                 </Component>
             </Component>
@@ -843,7 +843,7 @@
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VbookBrowser"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
                     <Property name="commands" typeID="1C#CommandEventSource" value="A2:3_R344_R119"/>
-                    <Property name="title" typeID="Pjava.lang.String" value="VOpen book"/>
+                    <Property name="title" typeID="Pjava.lang.String" value="V打开图书"/>
                     <Property name="commandListener" typeID="C#CommandListener" value="R7"/>
                     <Property name="filter" typeID="Pjava.lang.String" value="V"/>
                     <Component componentID="34" typeID="C#FileBrowserOpenCommandEventSource">
@@ -869,7 +869,7 @@
                     <Property name="instanceName" typeID="Pjava.lang.String" value="Vencodings"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
                     <Property name="commands" typeID="1C#CommandEventSource" value="A3:5_R10275_R10385_R1039"/>
-                    <Property name="title" typeID="Pjava.lang.String" value="VSet chapter encoding"/>
+                    <Property name="title" typeID="Pjava.lang.String" value="V设置章节编码"/>
                     <Property name="commandListener" typeID="C#CommandListener" value="R7"/>
                     <Property name="selectCommand" typeID="C#CommandEventSource" value="R1038"/>
                     <Component componentID="1038" typeID="C#CommandEventSource">
@@ -903,7 +903,7 @@
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VbookError"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
                     <Property name="commands" typeID="1C#CommandEventSource" value="A1:4_R103"/>
-                    <Property name="title" typeID="Pjava.lang.String" value="VSorry!"/>
+                    <Property name="title" typeID="Pjava.lang.String" value="V抱歉！"/>
                     <Property name="commandListener" typeID="C#CommandListener" value="R7"/>
                     <Property name="string" typeID="Pjava.lang.String" value="U&quot;Sorry, cannot open this book: &quot; + getLoadBook().getTask().getFailureMessage() + &quot;.&quot;"/>
                     <Property name="timeout" typeID="Pint" value="V-2"/>
@@ -926,7 +926,7 @@
                     <Property name="commandListener" typeID="C#CommandListener" value="R7"/>
                     <Property name="isFullScreen" typeID="Pboolean" value="Vtrue"/>
                     <Property name="image" typeID="Cjavax.microedition.lcdui.Image" value="R165"/>
-                    <Property name="text" typeID="Pjava.lang.String" value="VLaying out chapter..."/>
+                    <Property name="text" typeID="Pjava.lang.String" value="V章节排版..."/>
                     <Property name="textFont" typeID="Cjavax.microedition.lcdui.Font" value="R180"/>
                     <Component componentID="1058" typeID="C#WaitScreenFailureCommandEventSource">
                         <Property name="displayable" typeID="Cjavax.microedition.lcdui.Displayable" value="R1056"/>
@@ -950,7 +950,7 @@
                     <Property name="commandListener" typeID="C#CommandListener" value="R7"/>
                     <Property name="isFullScreen" typeID="Pboolean" value="Vtrue"/>
                     <Property name="image" typeID="Cjavax.microedition.lcdui.Image" value="R165"/>
-                    <Property name="text" typeID="Pjava.lang.String" value="VOpening book..."/>
+                    <Property name="text" typeID="Pjava.lang.String" value="V打开图书..."/>
                     <Property name="textFont" typeID="Cjavax.microedition.lcdui.Font" value="R180"/>
                     <Property name="task" typeID="Corg.netbeans.microedition.util.CancellableTask" value="R160"/>
                     <Component componentID="158" typeID="C#WaitScreenSuccessCommandEventSource">
@@ -985,7 +985,7 @@
                     <Property name="instanceName" typeID="Pjava.lang.String" value="Vsuggestions"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
                     <Property name="commands" typeID="1C#CommandEventSource" value="A3:4_R1894_R2064_R210"/>
-                    <Property name="title" typeID="Pjava.lang.String" value="VDid you mean?"/>
+                    <Property name="title" typeID="Pjava.lang.String" value="V您的意思是？"/>
                     <Property name="commandListener" typeID="C#CommandListener" value="R7"/>
                     <Property name="selectCommand" typeID="C#CommandEventSource" value="R210"/>
                     <Component componentID="189" typeID="C#ListSelectCommandEventSource">
@@ -1019,27 +1019,27 @@
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VwordDefinition"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
                     <Property name="commands" typeID="1C#CommandEventSource" value="A3:4_R7844_R7854_R786"/>
-                    <Property name="title" typeID="Pjava.lang.String" value="VWord definition"/>
+                    <Property name="title" typeID="Pjava.lang.String" value="V词语定义"/>
                     <Property name="commandListener" typeID="C#CommandListener" value="R7"/>
                     <Property name="items" typeID="1Cjavax.microedition.lcdui.Item" value="A3:4_R1824_R1834_R184"/>
                     <Component componentID="184" typeID="Cjavax.microedition.lcdui.StringItem">
                         <Property name="instanceName" typeID="Pjava.lang.String" value="VdictrionaryStringItem"/>
                         <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
-                        <Property name="label" typeID="Pjava.lang.String" value="VDictionary"/>
+                        <Property name="label" typeID="Pjava.lang.String" value="V字典"/>
                         <Property name="itemCommandListener" typeID="C#ItemCommandListener" value="R17"/>
                         <Property name="text" typeID="Pjava.lang.String" value="V"/>
                     </Component>
                     <Component componentID="182" typeID="Cjavax.microedition.lcdui.StringItem">
                         <Property name="instanceName" typeID="Pjava.lang.String" value="VwordStringItem"/>
                         <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
-                        <Property name="label" typeID="Pjava.lang.String" value="VWord"/>
+                        <Property name="label" typeID="Pjava.lang.String" value="V词"/>
                         <Property name="itemCommandListener" typeID="C#ItemCommandListener" value="R17"/>
                         <Property name="text" typeID="Pjava.lang.String" value="V"/>
                     </Component>
                     <Component componentID="183" typeID="Cjavax.microedition.lcdui.StringItem">
                         <Property name="instanceName" typeID="Pjava.lang.String" value="VdefinitionStringItem"/>
                         <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
-                        <Property name="label" typeID="Pjava.lang.String" value="VDefinition"/>
+                        <Property name="label" typeID="Pjava.lang.String" value="V定义"/>
                         <Property name="itemCommandListener" typeID="C#ItemCommandListener" value="R17"/>
                         <Property name="text" typeID="Pjava.lang.String" value="V"/>
                     </Component>
@@ -1075,7 +1075,7 @@
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VwordBox"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
                     <Property name="commands" typeID="1C#CommandEventSource" value="A2:4_R7114_R741"/>
-                    <Property name="title" typeID="Pjava.lang.String" value="VEnter word"/>
+                    <Property name="title" typeID="Pjava.lang.String" value="V输入词"/>
                     <Property name="commandListener" typeID="C#CommandListener" value="R7"/>
                     <Property name="string" typeID="Pjava.lang.String" value="V"/>
                     <Property name="maxSize" typeID="Pint" value="V100"/>
@@ -1103,7 +1103,7 @@
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VunitGroups"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
                     <Property name="commands" typeID="1C#CommandEventSource" value="A3:4_R2564_R6724_R679"/>
-                    <Property name="title" typeID="Pjava.lang.String" value="VSelect units type"/>
+                    <Property name="title" typeID="Pjava.lang.String" value="V选择单位类型"/>
                     <Property name="commandListener" typeID="C#CommandListener" value="R7"/>
                     <Property name="listType" typeID="Pint" value="V3"/>
                     <Property name="fitPolicy" typeID="Pint" value="V0"/>
@@ -1139,7 +1139,7 @@
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VnumberBox"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
                     <Property name="commands" typeID="1C#CommandEventSource" value="A2:4_R6674_R668"/>
-                    <Property name="title" typeID="Pjava.lang.String" value="VEnter number"/>
+                    <Property name="title" typeID="Pjava.lang.String" value="V输入数字"/>
                     <Property name="commandListener" typeID="C#CommandListener" value="R7"/>
                     <Property name="string" typeID="Pjava.lang.String" value="V"/>
                     <Property name="maxSize" typeID="Pint" value="V64"/>
@@ -1168,7 +1168,7 @@
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VunitFrom"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
                     <Property name="commands" typeID="1C#CommandEventSource" value="A3:4_R2674_R6864_R687"/>
-                    <Property name="title" typeID="Pjava.lang.String" value="VConvert from"/>
+                    <Property name="title" typeID="Pjava.lang.String" value="V转换前"/>
                     <Property name="commandListener" typeID="C#CommandListener" value="R7"/>
                     <Property name="selectCommand" typeID="C#CommandEventSource" value="R687"/>
                     <Component componentID="267" typeID="C#ListSelectCommandEventSource">
@@ -1202,7 +1202,7 @@
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VunitTo"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
                     <Property name="commands" typeID="1C#CommandEventSource" value="A3:4_R2704_R6464_R691"/>
-                    <Property name="title" typeID="Pjava.lang.String" value="VConvert to"/>
+                    <Property name="title" typeID="Pjava.lang.String" value="V转换为"/>
                     <Property name="commandListener" typeID="C#CommandListener" value="R7"/>
                     <Property name="selectCommand" typeID="C#CommandEventSource" value="R691"/>
                     <Component componentID="270" typeID="C#ListSelectCommandEventSource">
@@ -1236,9 +1236,9 @@
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VnumberError"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
                     <Property name="commands" typeID="1C#CommandEventSource" value="A1:4_R717"/>
-                    <Property name="title" typeID="Pjava.lang.String" value="VSorry!"/>
+                    <Property name="title" typeID="Pjava.lang.String" value="V抱歉！"/>
                     <Property name="commandListener" typeID="C#CommandListener" value="R7"/>
-                    <Property name="string" typeID="Pjava.lang.String" value="VYou need to enter a number."/>
+                    <Property name="string" typeID="Pjava.lang.String" value="V您需要输入一个数字。"/>
                     <Property name="timeout" typeID="Pint" value="V-2"/>
                     <Property name="type" typeID="Ejavax.microedition.lcdui.AlertType" value="EERROR"/>
                     <Component componentID="717" typeID="C#CommandEventSource">
@@ -1318,7 +1318,7 @@
                     <Property name="instanceName" typeID="Pjava.lang.String" value="Vtoc"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
                     <Property name="commands" typeID="1C#CommandEventSource" value="A3:4_R3264_R6334_R634"/>
-                    <Property name="title" typeID="Pjava.lang.String" value="VTable of contents"/>
+                    <Property name="title" typeID="Pjava.lang.String" value="V目录"/>
                     <Property name="commandListener" typeID="C#CommandListener" value="R7"/>
                     <Property name="fitPolicy" typeID="Pint" value="V0"/>
                     <Property name="selectCommand" typeID="C#CommandEventSource" value="R634"/>
@@ -1353,7 +1353,7 @@
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VacceptLicense"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
                     <Property name="commands" typeID="1C#CommandEventSource" value="A2:4_R7094_R715"/>
-                    <Property name="title" typeID="Pjava.lang.String" value="VLicense agreement"/>
+                    <Property name="title" typeID="Pjava.lang.String" value="V许可协议"/>
                     <Property name="commandListener" typeID="C#CommandListener" value="R7"/>
                     <Property name="items" typeID="1Cjavax.microedition.lcdui.Item" value="A3:4_R3734_R4154_R427"/>
                     <Component componentID="373" typeID="Cjavax.microedition.lcdui.StringItem">
@@ -1361,7 +1361,7 @@
                         <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
                         <Property name="label" typeID="Pjava.lang.String" value="V"/>
                         <Property name="itemCommandListener" typeID="C#ItemCommandListener" value="R17"/>
-                        <Property name="text" typeID="Pjava.lang.String" value="VAlbite READER is a free ebook reader developed by Svetlin Ankov and licensed under the Apache 2.0 License."/>
+                        <Property name="text" typeID="Pjava.lang.String" value="VAlbite READER 是由 Svetlin Ankov 开发的电子书阅读器，按照 Apache 2.0 许可协议发布。"/>
                         <Property name="font" typeID="Cjavax.microedition.lcdui.Font" value="R416"/>
                     </Component>
                     <Component componentID="415" typeID="Cjavax.microedition.lcdui.StringItem">
@@ -1378,7 +1378,7 @@
                         <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
                         <Property name="label" typeID="Pjava.lang.String" value="V"/>
                         <Property name="itemCommandListener" typeID="C#ItemCommandListener" value="R17"/>
-                        <Property name="text" typeID="Pjava.lang.String" value="VDo you accept the license?"/>
+                        <Property name="text" typeID="Pjava.lang.String" value="V您接受此许可协议吗？"/>
                         <Property name="font" typeID="Cjavax.microedition.lcdui.Font" value="R416"/>
                     </Component>
                     <Component componentID="715" typeID="C#CommandEventSource">
@@ -1404,7 +1404,7 @@
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VchapterPositions"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
                     <Property name="commands" typeID="1C#CommandEventSource" value="A3:4_R3554_R3604_R705"/>
-                    <Property name="title" typeID="Pjava.lang.String" value="VWhere to go?"/>
+                    <Property name="title" typeID="Pjava.lang.String" value="V转到哪里？"/>
                     <Property name="commandListener" typeID="C#CommandListener" value="R7"/>
                     <Property name="elements" typeID="1C#ListElementEventSource" value="A4:4_R3644_R3654_R3664_R608"/>
                     <Property name="selectCommand" typeID="C#CommandEventSource" value="R360"/>
@@ -1417,14 +1417,14 @@
                         </Component>
                     </Component>
                     <Component componentID="364" typeID="C#ListElementEventSource">
-                        <Property name="string" typeID="Pjava.lang.String" value="VWhere I was last time"/>
+                        <Property name="string" typeID="Pjava.lang.String" value="V最近阅读"/>
                         <Property name="selected" typeID="Pboolean" value="Vtrue"/>
                     </Component>
                     <Component componentID="365" typeID="C#ListElementEventSource">
-                        <Property name="string" typeID="Pjava.lang.String" value="VStart of chapter"/>
+                        <Property name="string" typeID="Pjava.lang.String" value="V章节起始"/>
                     </Component>
                     <Component componentID="366" typeID="C#ListElementEventSource">
-                        <Property name="string" typeID="Pjava.lang.String" value="VEnd of chapter"/>
+                        <Property name="string" typeID="Pjava.lang.String" value="V章节末尾"/>
                     </Component>
                     <Component componentID="360" typeID="C#CommandEventSource">
                         <Property name="eventHandler" typeID="C#EventHandler" value="R363"/>
@@ -1437,7 +1437,7 @@
                     </Component>
                     <Component componentID="608" typeID="C#ListElementEventSource">
                         <Property name="eventHandler" typeID="C#EventHandler" value="R610"/>
-                        <Property name="string" typeID="Pjava.lang.String" value="VGo to percent"/>
+                        <Property name="string" typeID="Pjava.lang.String" value="V按百分比"/>
                         <Component componentID="610" typeID="C#SwitchDisplayableEventHandler">
                             <Property name="eventSource" typeID="C#EventSource" value="R608"/>
                             <Property name="displayable" typeID="Cjavax.microedition.lcdui.Displayable" value="R354"/>
@@ -1485,7 +1485,7 @@
                     <Property name="selectCommand" typeID="C#CommandEventSource" value="R430"/>
                     <Component componentID="1045" typeID="C#ListElementEventSource">
                         <Property name="eventHandler" typeID="C#EventHandler" value="R1053"/>
-                        <Property name="string" typeID="Pjava.lang.String" value="VSetup hyphenation"/>
+                        <Property name="string" typeID="Pjava.lang.String" value="V设置连字符"/>
                         <Component componentID="1053" typeID="C#SwitchDisplayableEventHandler">
                             <Property name="eventSource" typeID="C#EventSource" value="R1045"/>
                             <Property name="displayable" typeID="Cjavax.microedition.lcdui.Displayable" value="R1023"/>
@@ -1493,7 +1493,7 @@
                     </Component>
                     <Component componentID="1046" typeID="C#ListElementEventSource">
                         <Property name="eventHandler" typeID="C#EventHandler" value="R1054"/>
-                        <Property name="string" typeID="Pjava.lang.String" value="VSet encoding"/>
+                        <Property name="string" typeID="Pjava.lang.String" value="V设置编码"/>
                         <Component componentID="1054" typeID="C#SwitchDisplayableEventHandler">
                             <Property name="eventSource" typeID="C#EventSource" value="R1046"/>
                             <Property name="displayable" typeID="Cjavax.microedition.lcdui.Displayable" value="R1026"/>
@@ -1509,7 +1509,7 @@
                     </Component>
                     <Component componentID="478" typeID="C#ListElementEventSource">
                         <Property name="eventHandler" typeID="C#EventHandler" value="R946"/>
-                        <Property name="string" typeID="Pjava.lang.String" value="VAbout"/>
+                        <Property name="string" typeID="Pjava.lang.String" value="V关于"/>
                         <Component componentID="946" typeID="C#SwitchDisplayableEventHandler">
                             <Property name="eventSource" typeID="C#EventSource" value="R478"/>
                             <Property name="displayable" typeID="Cjavax.microedition.lcdui.Displayable" value="R428"/>
@@ -1517,7 +1517,7 @@
                     </Component>
                     <Component componentID="479" typeID="C#ListElementEventSource">
                         <Property name="eventHandler" typeID="C#EventHandler" value="R951"/>
-                        <Property name="string" typeID="Pjava.lang.String" value="VQuit"/>
+                        <Property name="string" typeID="Pjava.lang.String" value="V退出"/>
                         <Component componentID="951" typeID="C#MethodPointEventHandler">
                             <Property name="eventSource" typeID="C#EventSource" value="R479"/>
                             <Property name="methodPoint" typeID="C#MethodPoint" value="R554"/>
@@ -1525,7 +1525,7 @@
                     </Component>
                     <Component componentID="476" typeID="C#ListElementEventSource">
                         <Property name="eventHandler" typeID="C#EventHandler" value="R943"/>
-                        <Property name="string" typeID="Pjava.lang.String" value="VScreen mode"/>
+                        <Property name="string" typeID="Pjava.lang.String" value="V显示模式"/>
                         <Component componentID="943" typeID="C#MethodPointEventHandler">
                             <Property name="eventSource" typeID="C#EventSource" value="R476"/>
                             <Property name="methodPoint" typeID="C#MethodPoint" value="R593"/>
@@ -1533,7 +1533,7 @@
                     </Component>
                     <Component componentID="477" typeID="C#ListElementEventSource">
                         <Property name="eventHandler" typeID="C#EventHandler" value="R945"/>
-                        <Property name="string" typeID="Pjava.lang.String" value="VSet dictionary folder"/>
+                        <Property name="string" typeID="Pjava.lang.String" value="V设置字典目录"/>
                         <Component componentID="945" typeID="C#SwitchDisplayableEventHandler">
                             <Property name="eventSource" typeID="C#EventSource" value="R477"/>
                             <Property name="displayable" typeID="Cjavax.microedition.lcdui.Displayable" value="R852"/>
@@ -1541,7 +1541,7 @@
                     </Component>
                     <Component componentID="474" typeID="C#ListElementEventSource">
                         <Property name="eventHandler" typeID="C#EventHandler" value="R949"/>
-                        <Property name="string" typeID="Pjava.lang.String" value="VSwitch day / night"/>
+                        <Property name="string" typeID="Pjava.lang.String" value="V切换昼/夜模式"/>
                         <Component componentID="949" typeID="C#SwitchDisplayableEventHandler">
                             <Property name="eventSource" typeID="C#EventSource" value="R474"/>
                             <Property name="displayable" typeID="Cjavax.microedition.lcdui.Displayable" value="R168"/>
@@ -1549,7 +1549,7 @@
                     </Component>
                     <Component componentID="475" typeID="C#ListElementEventSource">
                         <Property name="eventHandler" typeID="C#EventHandler" value="R942"/>
-                        <Property name="string" typeID="Pjava.lang.String" value="VChoose colors"/>
+                        <Property name="string" typeID="Pjava.lang.String" value="V设置颜色"/>
                         <Component componentID="942" typeID="C#MethodPointEventHandler">
                             <Property name="eventSource" typeID="C#EventSource" value="R475"/>
                             <Property name="methodPoint" typeID="C#MethodPoint" value="R541"/>
@@ -1557,7 +1557,7 @@
                     </Component>
                     <Component componentID="472" typeID="C#ListElementEventSource">
                         <Property name="eventHandler" typeID="C#EventHandler" value="R940"/>
-                        <Property name="string" typeID="Pjava.lang.String" value="VConvert number"/>
+                        <Property name="string" typeID="Pjava.lang.String" value="V数值转换"/>
                         <Component componentID="940" typeID="C#MethodPointEventHandler">
                             <Property name="eventSource" typeID="C#EventSource" value="R472"/>
                             <Property name="methodPoint" typeID="C#MethodPoint" value="R252"/>
@@ -1565,7 +1565,7 @@
                     </Component>
                     <Component componentID="473" typeID="C#ListElementEventSource">
                         <Property name="eventHandler" typeID="C#EventHandler" value="R570"/>
-                        <Property name="string" typeID="Pjava.lang.String" value="VFont size"/>
+                        <Property name="string" typeID="Pjava.lang.String" value="V字体大小"/>
                         <Component componentID="570" typeID="C#MethodPointEventHandler">
                             <Property name="eventSource" typeID="C#EventSource" value="R473"/>
                             <Property name="methodPoint" typeID="C#MethodPoint" value="R565"/>
@@ -1573,7 +1573,7 @@
                     </Component>
                     <Component componentID="470" typeID="C#ListElementEventSource">
                         <Property name="eventHandler" typeID="C#EventHandler" value="R937"/>
-                        <Property name="string" typeID="Pjava.lang.String" value="VOpen book"/>
+                        <Property name="string" typeID="Pjava.lang.String" value="V打开电子书"/>
                         <Component componentID="937" typeID="C#MethodPointEventHandler">
                             <Property name="eventSource" typeID="C#EventSource" value="R470"/>
                             <Property name="methodPoint" typeID="C#MethodPoint" value="R242"/>
@@ -1581,7 +1581,7 @@
                     </Component>
                     <Component componentID="471" typeID="C#ListElementEventSource">
                         <Property name="eventHandler" typeID="C#EventHandler" value="R941"/>
-                        <Property name="string" typeID="Pjava.lang.String" value="VLookup word"/>
+                        <Property name="string" typeID="Pjava.lang.String" value="V查找"/>
                         <Component componentID="941" typeID="C#MethodPointEventHandler">
                             <Property name="eventSource" typeID="C#EventSource" value="R471"/>
                             <Property name="methodPoint" typeID="C#MethodPoint" value="R223"/>
@@ -1589,7 +1589,7 @@
                     </Component>
                     <Component componentID="469" typeID="C#ListElementEventSource">
                         <Property name="eventHandler" typeID="C#EventHandler" value="R938"/>
-                        <Property name="string" typeID="Pjava.lang.String" value="VTable of contents"/>
+                        <Property name="string" typeID="Pjava.lang.String" value="V目录"/>
                         <Component componentID="938" typeID="C#MethodPointEventHandler">
                             <Property name="eventSource" typeID="C#EventSource" value="R469"/>
                             <Property name="methodPoint" typeID="C#MethodPoint" value="R332"/>
@@ -1614,7 +1614,7 @@
                     </Component>
                     <Component componentID="588" typeID="C#ListElementEventSource">
                         <Property name="eventHandler" typeID="C#EventHandler" value="R944"/>
-                        <Property name="string" typeID="Pjava.lang.String" value="VPage interaction"/>
+                        <Property name="string" typeID="Pjava.lang.String" value="V页面交互"/>
                         <Component componentID="944" typeID="C#MethodPointEventHandler">
                             <Property name="eventSource" typeID="C#EventSource" value="R588"/>
                             <Property name="methodPoint" typeID="C#MethodPoint" value="R573"/>
@@ -1622,7 +1622,7 @@
                     </Component>
                     <Component componentID="734" typeID="C#ListElementEventSource">
                         <Property name="eventHandler" typeID="C#EventHandler" value="R948"/>
-                        <Property name="string" typeID="Pjava.lang.String" value="VBook details"/>
+                        <Property name="string" typeID="Pjava.lang.String" value="V图书简介"/>
                         <Component componentID="948" typeID="C#MethodPointEventHandler">
                             <Property name="eventSource" typeID="C#EventSource" value="R734"/>
                             <Property name="methodPoint" typeID="C#MethodPoint" value="R720"/>
@@ -1630,7 +1630,7 @@
                     </Component>
                     <Component componentID="936" typeID="C#ListElementEventSource">
                         <Property name="eventHandler" typeID="C#EventHandler" value="R939"/>
-                        <Property name="string" typeID="Pjava.lang.String" value="VBookmarks"/>
+                        <Property name="string" typeID="Pjava.lang.String" value="V书签"/>
                         <Component componentID="939" typeID="C#SwitchDisplayableEventHandler">
                             <Property name="eventSource" typeID="C#EventSource" value="R936"/>
                             <Property name="displayable" typeID="Cjavax.microedition.lcdui.Displayable" value="R890"/>
@@ -1638,7 +1638,7 @@
                     </Component>
                     <Component componentID="935" typeID="C#ListElementEventSource">
                         <Property name="eventHandler" typeID="C#EventHandler" value="R950"/>
-                        <Property name="string" typeID="Pjava.lang.String" value="VPage layout"/>
+                        <Property name="string" typeID="Pjava.lang.String" value="V页面布局"/>
                         <Component componentID="950" typeID="C#SwitchDisplayableEventHandler">
                             <Property name="eventSource" typeID="C#EventSource" value="R935"/>
                             <Property name="displayable" typeID="Cjavax.microedition.lcdui.Displayable" value="R878"/>
@@ -1649,7 +1649,7 @@
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VshowLicense"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
                     <Property name="commands" typeID="1C#CommandEventSource" value="A1:4_R732"/>
-                    <Property name="title" typeID="Pjava.lang.String" value="VAbout"/>
+                    <Property name="title" typeID="Pjava.lang.String" value="V关于"/>
                     <Property name="commandListener" typeID="C#CommandListener" value="R7"/>
                     <Property name="items" typeID="1Cjavax.microedition.lcdui.Item" value="A5:4_R4474_R4484_R4494_R4504_R451"/>
                     <Component componentID="447" typeID="Cjavax.microedition.lcdui.ImageItem">
@@ -1675,7 +1675,7 @@
                         <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
                         <Property name="label" typeID="Pjava.lang.String" value="V"/>
                         <Property name="itemCommandListener" typeID="C#ItemCommandListener" value="R17"/>
-                        <Property name="text" typeID="Pjava.lang.String" value="VYou can get this application and free books from the following link:"/>
+                        <Property name="text" typeID="Pjava.lang.String" value="V你可以从以下站点获英文原版的本软件和免费电子书："/>
                         <Property name="font" typeID="Cjavax.microedition.lcdui.Font" value="R416"/>
                     </Component>
                     <Component componentID="449" typeID="Cjavax.microedition.lcdui.StringItem">
@@ -1683,13 +1683,13 @@
                         <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
                         <Property name="label" typeID="Pjava.lang.String" value="V"/>
                         <Property name="itemCommandListener" typeID="C#ItemCommandListener" value="R17"/>
-                        <Property name="text" typeID="Pjava.lang.String" value="VAlbite READER is a free ebook reader for the Java ME Platform, developed by Svetlin Ankov."/>
+                        <Property name="text" typeID="Pjava.lang.String" value="VAlbite READER 是一个基于 Java ME 平台的免费电子书阅读器，由 Svetlin Ankov 开发、taxigps 汉化。"/>
                         <Property name="font" typeID="Cjavax.microedition.lcdui.Font" value="R416"/>
                     </Component>
                     <Component componentID="448" typeID="Cjavax.microedition.lcdui.StringItem">
                         <Property name="instanceName" typeID="Pjava.lang.String" value="VstringItem"/>
                         <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
-                        <Property name="label" typeID="Pjava.lang.String" value="VVersion:"/>
+                        <Property name="label" typeID="Pjava.lang.String" value="V版本号："/>
                         <Property name="layout" typeID="Pint" value="V1"/>
                         <Property name="itemCommandListener" typeID="C#ItemCommandListener" value="R17"/>
                         <Property name="text" typeID="Pjava.lang.String" value="Uversion"/>
@@ -1709,10 +1709,10 @@
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VexitBox"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
                     <Property name="commands" typeID="1C#CommandEventSource" value="A2:4_R5494_R551"/>
-                    <Property name="title" typeID="Pjava.lang.String" value="VQuit"/>
+                    <Property name="title" typeID="Pjava.lang.String" value="V退出"/>
                     <Property name="commandListener" typeID="C#CommandListener" value="R7"/>
                     <Property name="image" typeID="Cjavax.microedition.lcdui.Image" value="R165"/>
-                    <Property name="string" typeID="Pjava.lang.String" value="VDo you want to quit?"/>
+                    <Property name="string" typeID="Pjava.lang.String" value="V您确定退出吗？"/>
                     <Property name="timeout" typeID="Pint" value="V-2"/>
                     <Property name="type" typeID="Ejavax.microedition.lcdui.AlertType" value="ECONFIRMATION"/>
                     <Component componentID="551" typeID="C#CommandEventSource">
@@ -1738,7 +1738,7 @@
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VfontSizes"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
                     <Property name="commands" typeID="1C#CommandEventSource" value="A3:4_R5594_R6414_R642"/>
-                    <Property name="title" typeID="Pjava.lang.String" value="VSelect font size"/>
+                    <Property name="title" typeID="Pjava.lang.String" value="V设置字体大小"/>
                     <Property name="commandListener" typeID="C#CommandListener" value="R7"/>
                     <Property name="selectCommand" typeID="C#CommandEventSource" value="R641"/>
                     <Component componentID="559" typeID="C#ListSelectCommandEventSource">
@@ -1772,34 +1772,34 @@
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VscrollingOptions"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
                     <Property name="commands" typeID="1C#CommandEventSource" value="A2:4_R6374_R638"/>
-                    <Property name="title" typeID="Pjava.lang.String" value="VPage interaction"/>
+                    <Property name="title" typeID="Pjava.lang.String" value="V页面交互"/>
                     <Property name="commandListener" typeID="C#CommandListener" value="R7"/>
                     <Property name="items" typeID="1Cjavax.microedition.lcdui.Item" value="A4:4_R5825_R10505_R10475_R1012"/>
                     <Component componentID="1050" typeID="Cjavax.microedition.lcdui.ChoiceGroup">
                         <Property name="instanceName" typeID="Pjava.lang.String" value="VsmoothScrolling"/>
                         <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
-                        <Property name="label" typeID="Pjava.lang.String" value="VSmooth scrolling"/>
+                        <Property name="label" typeID="Pjava.lang.String" value="V平滑滚动"/>
                         <Property name="itemCommandListener" typeID="C#ItemCommandListener" value="R17"/>
                         <Property name="choiceType" typeID="Pint" value="V2"/>
                         <Property name="elements" typeID="1C#ChoiceElement" value="A1:5_R1051"/>
                         <Component componentID="1051" typeID="C#ChoiceElement">
-                            <Property name="string" typeID="Pjava.lang.String" value="VEnable"/>
+                            <Property name="string" typeID="Pjava.lang.String" value="V启用"/>
                             <Property name="selected" typeID="Pboolean" value="UbookCanvas.getSmoothScrolling()"/>
                         </Component>
                     </Component>
                     <Component componentID="1047" typeID="Cjavax.microedition.lcdui.ChoiceGroup">
                         <Property name="instanceName" typeID="Pjava.lang.String" value="VscrollingDirectionGroup"/>
                         <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
-                        <Property name="label" typeID="Pjava.lang.String" value="VScrolling direction"/>
+                        <Property name="label" typeID="Pjava.lang.String" value="V滚动方向"/>
                         <Property name="itemCommandListener" typeID="C#ItemCommandListener" value="R17"/>
                         <Property name="choiceType" typeID="Pint" value="V1"/>
                         <Property name="elements" typeID="1C#ChoiceElement" value="A2:5_R10485_R1049"/>
                         <Component componentID="1049" typeID="C#ChoiceElement">
-                            <Property name="string" typeID="Pjava.lang.String" value="VVertical"/>
+                            <Property name="string" typeID="Pjava.lang.String" value="V垂直"/>
                             <Property name="selected" typeID="Pboolean" value="U!bookCanvas.getHorizontalScalling()"/>
                         </Component>
                         <Component componentID="1048" typeID="C#ChoiceElement">
-                            <Property name="string" typeID="Pjava.lang.String" value="VHorizontal"/>
+                            <Property name="string" typeID="Pjava.lang.String" value="V水平"/>
                             <Property name="selected" typeID="Pboolean" value="UbookCanvas.getHorizontalScalling()"/>
                         </Component>
                     </Component>
@@ -1824,7 +1824,7 @@
                     <Component componentID="582" typeID="Cjavax.microedition.lcdui.Gauge">
                         <Property name="instanceName" typeID="Pjava.lang.String" value="VscrollingSpeed"/>
                         <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
-                        <Property name="label" typeID="Pjava.lang.String" value="VScrolling speed"/>
+                        <Property name="label" typeID="Pjava.lang.String" value="V滚动速度"/>
                         <Property name="itemCommandListener" typeID="C#ItemCommandListener" value="R17"/>
                         <Property name="interactive" typeID="Pboolean" value="Vtrue"/>
                         <Property name="value" typeID="Pint" value="UbookCanvas.getScrollingSpeed()"/>
@@ -1833,7 +1833,7 @@
                     <Component componentID="1012" typeID="Cjavax.microedition.lcdui.Gauge">
                         <Property name="instanceName" typeID="Pjava.lang.String" value="VholdingTimeMultiplier"/>
                         <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
-                        <Property name="label" typeID="Pjava.lang.String" value="VLong press after"/>
+                        <Property name="label" typeID="Pjava.lang.String" value="V长按计时"/>
                         <Property name="itemCommandListener" typeID="C#ItemCommandListener" value="R17"/>
                         <Property name="interactive" typeID="Pboolean" value="Vtrue"/>
                         <Property name="value" typeID="Pint" value="UbookCanvas.getHoldingTimeMultiplier() - 1"/>
@@ -1878,7 +1878,7 @@
                     <Property name="instanceName" typeID="Pjava.lang.String" value="Vcolors"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
                     <Property name="commands" typeID="1C#CommandEventSource" value="A3:4_R5314_R5344_R627"/>
-                    <Property name="title" typeID="Pjava.lang.String" value="VSelect color"/>
+                    <Property name="title" typeID="Pjava.lang.String" value="V设置颜色"/>
                     <Property name="commandListener" typeID="C#CommandListener" value="R7"/>
                     <Property name="selectCommand" typeID="C#CommandEventSource" value="R534"/>
                     <Component componentID="534" typeID="C#CommandEventSource">
@@ -1912,13 +1912,13 @@
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VselectPercent"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
                     <Property name="commands" typeID="1C#CommandEventSource" value="A2:4_R6624_R663"/>
-                    <Property name="title" typeID="Pjava.lang.String" value="VSelect position"/>
+                    <Property name="title" typeID="Pjava.lang.String" value="V选择位置"/>
                     <Property name="commandListener" typeID="C#CommandListener" value="R7"/>
                     <Property name="items" typeID="1Cjavax.microedition.lcdui.Item" value="A1:4_R666"/>
                     <Component componentID="666" typeID="Cjavax.microedition.lcdui.Gauge">
                         <Property name="instanceName" typeID="Pjava.lang.String" value="VchapterPercent"/>
                         <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
-                        <Property name="label" typeID="Pjava.lang.String" value="VPosition in chapter"/>
+                        <Property name="label" typeID="Pjava.lang.String" value="V章节中位置"/>
                         <Property name="itemCommandListener" typeID="C#ItemCommandListener" value="R17"/>
                         <Property name="interactive" typeID="Pboolean" value="Vtrue"/>
                         <Property name="value" typeID="Pint" value="V0"/>
@@ -1947,7 +1947,7 @@
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VscreenModes"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
                     <Property name="commands" typeID="1C#CommandEventSource" value="A3:4_R5914_R7014_R702"/>
-                    <Property name="title" typeID="Pjava.lang.String" value="VScreen mode"/>
+                    <Property name="title" typeID="Pjava.lang.String" value="V显示模式"/>
                     <Property name="commandListener" typeID="C#CommandListener" value="R7"/>
                     <Property name="elements" typeID="1C#ListElementEventSource" value="A5:4_R6024_R6034_R6044_R6064_R605"/>
                     <Property name="selectCommand" typeID="C#CommandEventSource" value="R702"/>
@@ -1961,19 +1961,19 @@
                         </Component>
                     </Component>
                     <Component componentID="603" typeID="C#ListElementEventSource">
-                        <Property name="string" typeID="Pjava.lang.String" value="VNormal, Fullscreen"/>
+                        <Property name="string" typeID="Pjava.lang.String" value="V正常全屏"/>
                     </Component>
                     <Component componentID="602" typeID="C#ListElementEventSource">
-                        <Property name="string" typeID="Pjava.lang.String" value="VNormal"/>
+                        <Property name="string" typeID="Pjava.lang.String" value="V正常"/>
                     </Component>
                     <Component componentID="605" typeID="C#ListElementEventSource">
-                        <Property name="string" typeID="Pjava.lang.String" value="VCounterclockwise"/>
+                        <Property name="string" typeID="Pjava.lang.String" value="V逆时针旋转"/>
                     </Component>
                     <Component componentID="604" typeID="C#ListElementEventSource">
-                        <Property name="string" typeID="Pjava.lang.String" value="VClockwise"/>
+                        <Property name="string" typeID="Pjava.lang.String" value="V顺时针旋转"/>
                     </Component>
                     <Component componentID="606" typeID="C#ListElementEventSource">
-                        <Property name="string" typeID="Pjava.lang.String" value="VUpside-down"/>
+                        <Property name="string" typeID="Pjava.lang.String" value="V上下倒转"/>
                     </Component>
                     <Component componentID="702" typeID="C#CommandEventSource">
                         <Property name="eventHandler" typeID="C#EventHandler" value="R703"/>
@@ -1998,9 +1998,9 @@
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VnoDictionaries"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
                     <Property name="commands" typeID="1C#CommandEventSource" value="A1:4_R754"/>
-                    <Property name="title" typeID="Pjava.lang.String" value="VSorry!"/>
+                    <Property name="title" typeID="Pjava.lang.String" value="V抱歉！"/>
                     <Property name="commandListener" typeID="C#CommandListener" value="R7"/>
-                    <Property name="string" typeID="Pjava.lang.String" value="VNo dictionaries found or folder not set."/>
+                    <Property name="string" typeID="Pjava.lang.String" value="V字典未找到或目录未设置。"/>
                     <Property name="timeout" typeID="Pint" value="V-2"/>
                     <Property name="type" typeID="Ejavax.microedition.lcdui.AlertType" value="EWARNING"/>
                     <Component componentID="754" typeID="C#CommandEventSource">
@@ -2017,7 +2017,7 @@
                     <Property name="instanceName" typeID="Pjava.lang.String" value="Vdictionaries"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
                     <Property name="commands" typeID="1C#CommandEventSource" value="A3:4_R7614_R7694_R768"/>
-                    <Property name="title" typeID="Pjava.lang.String" value="VDictionaries"/>
+                    <Property name="title" typeID="Pjava.lang.String" value="V字典"/>
                     <Property name="commandListener" typeID="C#CommandListener" value="R7"/>
                     <Property name="fitPolicy" typeID="Pint" value="V0"/>
                     <Property name="selectCommand" typeID="C#CommandEventSource" value="R769"/>
@@ -2056,7 +2056,7 @@
                     <Property name="commandListener" typeID="C#CommandListener" value="R7"/>
                     <Property name="isFullScreen" typeID="Pboolean" value="Vtrue"/>
                     <Property name="image" typeID="Cjavax.microedition.lcdui.Image" value="R165"/>
-                    <Property name="text" typeID="Pjava.lang.String" value="VSearching, please wait..."/>
+                    <Property name="text" typeID="Pjava.lang.String" value="V查找中，请等待..."/>
                     <Property name="textFont" typeID="Cjavax.microedition.lcdui.Font" value="R180"/>
                     <Property name="task" typeID="Corg.netbeans.microedition.util.CancellableTask" value="R767"/>
                     <Component componentID="766" typeID="C#WaitScreenFailureCommandEventSource">
@@ -2082,7 +2082,7 @@
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VbookInfo"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
                     <Property name="commands" typeID="1C#CommandEventSource" value="A1:4_R730"/>
-                    <Property name="title" typeID="Pjava.lang.String" value="VBook details"/>
+                    <Property name="title" typeID="Pjava.lang.String" value="V图书简介"/>
                     <Property name="commandListener" typeID="C#CommandListener" value="R7"/>
                     <Component componentID="730" typeID="C#CommandEventSource">
                         <Property name="eventHandler" typeID="C#EventHandler" value="R731"/>
@@ -2098,9 +2098,9 @@
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VdictionaryError"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
                     <Property name="commands" typeID="1C#CommandEventSource" value="A1:4_R772"/>
-                    <Property name="title" typeID="Pjava.lang.String" value="VSorry!"/>
+                    <Property name="title" typeID="Pjava.lang.String" value="V抱歉！"/>
                     <Property name="commandListener" typeID="C#CommandListener" value="R7"/>
-                    <Property name="string" typeID="Pjava.lang.String" value="VCouldn't load the dictionary."/>
+                    <Property name="string" typeID="Pjava.lang.String" value="V无法读取字典。"/>
                     <Property name="timeout" typeID="Pint" value="V-2"/>
                     <Property name="type" typeID="Ejavax.microedition.lcdui.AlertType" value="EERROR"/>
                     <Component componentID="772" typeID="C#CommandEventSource">
@@ -2117,7 +2117,7 @@
                     <Property name="instanceName" typeID="Pjava.lang.String" value="Vbookmarks"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
                     <Property name="commands" typeID="1C#CommandEventSource" value="A6:4_R8914_R9154_R9164_R9184_R9204_R922"/>
-                    <Property name="title" typeID="Pjava.lang.String" value="VBookmarks"/>
+                    <Property name="title" typeID="Pjava.lang.String" value="V书签"/>
                     <Property name="commandListener" typeID="C#CommandListener" value="R7"/>
                     <Property name="fitPolicy" typeID="Pint" value="V2"/>
                     <Property name="selectCommand" typeID="C#CommandEventSource" value="R916"/>
@@ -2181,9 +2181,9 @@
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VdeleteBookmarkAlert"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
                     <Property name="commands" typeID="1C#CommandEventSource" value="A2:4_R9044_R903"/>
-                    <Property name="title" typeID="Pjava.lang.String" value="VAre you sure?"/>
+                    <Property name="title" typeID="Pjava.lang.String" value="V确定吗？"/>
                     <Property name="commandListener" typeID="C#CommandListener" value="R7"/>
-                    <Property name="string" typeID="Pjava.lang.String" value="VDo you want to delete this bookmark?"/>
+                    <Property name="string" typeID="Pjava.lang.String" value="V您要删除此书签吗？"/>
                     <Property name="timeout" typeID="Pint" value="V-2"/>
                     <Property name="type" typeID="Ejavax.microedition.lcdui.AlertType" value="ECONFIRMATION"/>
                     <Component componentID="904" typeID="C#CommandEventSource">
@@ -2209,7 +2209,7 @@
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VbookmarkText"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
                     <Property name="commands" typeID="1C#CommandEventSource" value="A2:4_R9624_R963"/>
-                    <Property name="title" typeID="Pjava.lang.String" value="VBookmark text"/>
+                    <Property name="title" typeID="Pjava.lang.String" value="V书签文本"/>
                     <Property name="commandListener" typeID="C#CommandListener" value="R7"/>
                     <Property name="string" typeID="Pjava.lang.String" value="V"/>
                     <Property name="maxSize" typeID="Pint" value="V512"/>
@@ -2241,7 +2241,7 @@
                     <Property name="commandListener" typeID="C#CommandListener" value="R7"/>
                     <Property name="isFullScreen" typeID="Pboolean" value="Vtrue"/>
                     <Property name="image" typeID="Cjavax.microedition.lcdui.Image" value="R165"/>
-                    <Property name="text" typeID="Pjava.lang.String" value="VScanning dictionaries..."/>
+                    <Property name="text" typeID="Pjava.lang.String" value="V扫描字典..."/>
                     <Property name="textFont" typeID="Cjavax.microedition.lcdui.Font" value="R180"/>
                     <Property name="task" typeID="Corg.netbeans.microedition.util.CancellableTask" value="R872"/>
                     <Component componentID="870" typeID="C#WaitScreenSuccessCommandEventSource">
@@ -2267,7 +2267,7 @@
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VpageSettings"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
                     <Property name="commands" typeID="1C#CommandEventSource" value="A2:4_R8824_R883"/>
-                    <Property name="title" typeID="Pjava.lang.String" value="VPage layout"/>
+                    <Property name="title" typeID="Pjava.lang.String" value="V页面布局"/>
                     <Property name="commandListener" typeID="C#CommandListener" value="R7"/>
                     <Property name="items" typeID="1Cjavax.microedition.lcdui.Item" value="A3:4_R8794_R8804_R881"/>
                     <Component componentID="881" typeID="Cjavax.microedition.lcdui.ChoiceGroup">
@@ -2277,14 +2277,14 @@
                         <Property name="itemCommandListener" typeID="C#ItemCommandListener" value="R17"/>
                         <Property name="elements" typeID="1C#ChoiceElement" value="A1:4_R889"/>
                         <Component componentID="889" typeID="C#ChoiceElement">
-                            <Property name="string" typeID="Pjava.lang.String" value="VRender images in books"/>
+                            <Property name="string" typeID="Pjava.lang.String" value="V显示书中的图片"/>
                             <Property name="selected" typeID="Pboolean" value="UbookCanvas.rendersImages()"/>
                         </Component>
                     </Component>
                     <Component componentID="880" typeID="Cjavax.microedition.lcdui.Gauge">
                         <Property name="instanceName" typeID="Pjava.lang.String" value="VlineSpacing"/>
                         <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
-                        <Property name="label" typeID="Pjava.lang.String" value="VLine spacing:"/>
+                        <Property name="label" typeID="Pjava.lang.String" value="V行间距："/>
                         <Property name="itemCommandListener" typeID="C#ItemCommandListener" value="R17"/>
                         <Property name="interactive" typeID="Pboolean" value="Vtrue"/>
                         <Property name="value" typeID="Pint" value="UbookCanvas.getCurrentLineSpacing()"/>
@@ -2311,7 +2311,7 @@
                     <Component componentID="879" typeID="Cjavax.microedition.lcdui.Gauge">
                         <Property name="instanceName" typeID="Pjava.lang.String" value="VpageMargins"/>
                         <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
-                        <Property name="label" typeID="Pjava.lang.String" value="VPage margins:"/>
+                        <Property name="label" typeID="Pjava.lang.String" value="V页边距："/>
                         <Property name="itemCommandListener" typeID="C#ItemCommandListener" value="R17"/>
                         <Property name="interactive" typeID="Pboolean" value="Vtrue"/>
                         <Property name="value" typeID="Pint" value="UbookCanvas.getCurrentMargin()"/>
@@ -2349,7 +2349,7 @@
                     <Property name="instanceName" typeID="Pjava.lang.String" value="Vlanguages"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
                     <Property name="commands" typeID="1C#CommandEventSource" value="A3:5_R10245_R10295_R1032"/>
-                    <Property name="title" typeID="Pjava.lang.String" value="VSetup hyphenation"/>
+                    <Property name="title" typeID="Pjava.lang.String" value="V设置连字符"/>
                     <Property name="commandListener" typeID="C#CommandListener" value="R7"/>
                     <Property name="selectCommand" typeID="C#CommandEventSource" value="R1029"/>
                     <Property name="indexBasedSwitch" typeID="Pboolean" value="Vtrue"/>
@@ -2384,9 +2384,9 @@
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VnoBookmarksFound"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
                     <Property name="commands" typeID="1C#CommandEventSource" value="A1:4_R977"/>
-                    <Property name="title" typeID="Pjava.lang.String" value="VSorry!"/>
+                    <Property name="title" typeID="Pjava.lang.String" value="V抱歉！"/>
                     <Property name="commandListener" typeID="C#CommandListener" value="R7"/>
-                    <Property name="string" typeID="Pjava.lang.String" value="VSelect a bookmark first."/>
+                    <Property name="string" typeID="Pjava.lang.String" value="V请先选择一个书签。"/>
                     <Property name="timeout" typeID="Pint" value="V-2"/>
                     <Property name="type" typeID="Ejavax.microedition.lcdui.AlertType" value="EWARNING"/>
                     <Component componentID="977" typeID="C#CommandEventSource">
@@ -2401,6 +2401,10 @@
                 </Component>
             </Component>
             <Component componentID="13" typeID="C#ResourcesCategory">
+                <Component componentID="1093" typeID="Cjavax.microedition.lcdui.Ticker">
+                    <Property name="instanceName" typeID="Pjava.lang.String" value="Vticker"/>
+                    <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
+                </Component>
                 <Component componentID="1066" typeID="Corg.netbeans.microedition.util.SimpleCancellableTask">
                     <Property name="instanceName" typeID="Pjava.lang.String" value="VapplyScreenModeTask"/>
                     <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
@@ -2481,98 +2485,98 @@
         </Component>
     </Document>
     <FlowScene version="1">
-        <Node componentID="869" descriptorID="componentNode869" x="583" y="1197"/>
-        <Node componentID="824" descriptorID="componentNode824" x="1680" y="181"/>
-        <Node componentID="1026" descriptorID="componentNode1026" x="3042" y="2140"/>
-        <Node componentID="750" descriptorID="componentNode750" x="863" y="750"/>
-        <Node componentID="312" descriptorID="componentNode312" x="3541" y="1720"/>
-        <Node componentID="151" descriptorID="componentNode151" x="1136" y="580"/>
-        <Node componentID="878" descriptorID="componentNode878" x="1949" y="2140"/>
-        <Node componentID="974" descriptorID="componentNode974" x="863" y="1720"/>
-        <Node componentID="771" descriptorID="componentNode771" x="4292" y="1197"/>
-        <Node componentID="791" descriptorID="componentNode791" x="2232" y="181"/>
-        <Node componentID="968" descriptorID="componentNode968" x="1949" y="2522"/>
-        <Node componentID="245" descriptorID="componentNode245" x="3284" y="1869"/>
-        <Node componentID="893" descriptorID="componentNode893" x="1403" y="2522"/>
-        <Node componentID="777" descriptorID="componentNode777" x="583" y="181"/>
-        <Node componentID="898" descriptorID="componentNode898" x="1949" y="2858"/>
-        <Node componentID="900" descriptorID="componentNode900" x="1136" y="2373"/>
-        <Node componentID="924" descriptorID="componentNode924" x="863" y="2522"/>
-        <Node componentID="372" descriptorID="componentNode372" x="863" y="32"/>
-        <Node componentID="720" descriptorID="componentNode720" x="1949" y="1720"/>
-        <Node componentID="973" descriptorID="componentNode973" x="2232" y="2709"/>
-        <Node componentID="223" descriptorID="componentNode223" x="3042" y="1720"/>
-        <Node componentID="1023" descriptorID="componentNode1023" x="2545" y="2140"/>
-        <Node componentID="572" descriptorID="componentNode572" x="2545" y="750"/>
         <Node componentID="547" descriptorID="componentNode547" x="3042" y="1048"/>
+        <Node componentID="609" descriptorID="componentNode609" x="34" y="1197"/>
+        <Node componentID="869" descriptorID="componentNode869" x="583" y="1197"/>
+        <Node componentID="344" descriptorID="componentNode344" x="583" y="899"/>
         <Node componentID="894" descriptorID="componentNode894" x="1680" y="2709"/>
-        <Node componentID="168" descriptorID="componentNode168" x="1403" y="1720"/>
-        <Node componentID="890" descriptorID="componentNode890" x="1403" y="2140"/>
-        <Node componentID="805" descriptorID="componentNode805" x="3805" y="899"/>
-        <Node componentID="157" descriptorID="componentNode157" x="318" y="1720"/>
-        <Node componentID="558" descriptorID="componentNode558" x="2232" y="2373"/>
-        <Node componentID="181" descriptorID="componentNode181" x="1680" y="580"/>
         <Node componentID="727" descriptorID="componentNode727" x="583" y="580"/>
+        <Node componentID="325" descriptorID="componentNode325" x="1949" y="750"/>
+        <Node componentID="1091" descriptorID="componentNode1091" x="191" y="268"/>
+        <Node componentID="573" descriptorID="componentNode573" x="2232" y="899"/>
+        <Node componentID="900" descriptorID="componentNode900" x="1136" y="2373"/>
+        <Node componentID="1041" descriptorID="componentNode1041" x="3284" y="2373"/>
+        <Node componentID="428" descriptorID="componentNode428" x="2804" y="1197"/>
+        <Node componentID="968" descriptorID="componentNode968" x="1949" y="2522"/>
+        <Node componentID="554" descriptorID="componentNode554" x="2545" y="1048"/>
+        <Node componentID="565" descriptorID="componentNode565" x="2232" y="1869"/>
+        <Node componentID="878" descriptorID="componentNode878" x="1949" y="2140"/>
+        <Node componentID="157" descriptorID="componentNode157" x="318" y="1720"/>
+        <Node componentID="724" descriptorID="componentNode724" x="2804" y="2373"/>
+        <Node componentID="757" descriptorID="componentNode757" x="4036" y="1048"/>
+        <Node componentID="1089" descriptorID="componentNode1089" x="36" y="122"/>
+        <Node componentID="981" descriptorID="componentNode981" x="583" y="2709"/>
+        <Node componentID="590" descriptorID="componentNode590" x="1136" y="1869"/>
+        <Node componentID="134" descriptorID="componentNode134" x="1403" y="330"/>
+        <Node componentID="372" descriptorID="componentNode372" x="863" y="32"/>
+        <Node componentID="885" descriptorID="componentNode885" x="2545" y="2522"/>
         <Node componentID="252" descriptorID="componentNode252" x="2804" y="1869"/>
+        <Node componentID="764" descriptorID="componentNode764" x="318" y="32"/>
+        <Node componentID="181" descriptorID="componentNode181" x="1680" y="580"/>
+        <Node componentID="367" descriptorID="componentNode367" x="3042" y="750"/>
+        <Node componentID="750" descriptorID="componentNode750" x="863" y="750"/>
+        <Node componentID="805" descriptorID="componentNode805" x="3805" y="899"/>
+        <Node componentID="895" descriptorID="componentNode895" x="2232" y="3007"/>
+        <Node componentID="893" descriptorID="componentNode893" x="1403" y="2522"/>
+        <Node componentID="673" descriptorID="componentNode673" x="4036" y="2140"/>
         <Node componentID="332" descriptorID="componentNode332" x="1680" y="899"/>
         <Node componentID="462" descriptorID="componentNode462" x="1403" y="1048"/>
-        <Node componentID="501" descriptorID="componentNode501" x="2545" y="2858"/>
-        <Node componentID="673" descriptorID="componentNode673" x="4036" y="2140"/>
-        <Node componentID="724" descriptorID="componentNode724" x="2804" y="2373"/>
-        <Node componentID="436" descriptorID="componentNode436" x="2545" y="1720"/>
-        <Node componentID="216" descriptorID="componentNode216" x="3541" y="1048"/>
-        <Node componentID="1002" descriptorID="componentNode1002" x="34" y="1869"/>
-        <Node componentID="819" descriptorID="componentNode819" x="318" y="330"/>
-        <Node componentID="1034" descriptorID="componentNode1034" x="3042" y="2522"/>
-        <Node componentID="269" descriptorID="componentNode269" x="34" y="2373"/>
-        <Node componentID="698" descriptorID="componentNode698" x="583" y="1869"/>
-        <Node componentID="593" descriptorID="componentNode593" x="1680" y="1197"/>
-        <Node componentID="747" descriptorID="componentNode747" x="3284" y="1197"/>
-        <Node componentID="757" descriptorID="componentNode757" x="4036" y="1048"/>
-        <Node componentID="895" descriptorID="componentNode895" x="2232" y="3007"/>
-        <Node componentID="852" descriptorID="componentNode852" x="2804" y="899"/>
-        <Node componentID="874" descriptorID="componentNode874" x="318" y="1048"/>
-        <Node componentID="530" descriptorID="componentNode530" x="1136" y="2709"/>
-        <Node componentID="984" descriptorID="componentNode984" x="1403" y="2858"/>
-        <Node componentID="188" descriptorID="componentNode188" x="1949" y="32"/>
-        <Node componentID="885" descriptorID="componentNode885" x="2545" y="2522"/>
-        <Node componentID="354" descriptorID="componentNode354" x="1949" y="330"/>
-        <Node componentID="656" descriptorID="componentNode656" x="1136" y="899"/>
-        <Node componentID="367" descriptorID="componentNode367" x="3042" y="750"/>
-        <Node componentID="429" descriptorID="componentNode429" x="2232" y="1197"/>
-        <Node componentID="648" descriptorID="componentNode648" x="583" y="2373"/>
-        <Node componentID="242" descriptorID="componentNode242" x="1949" y="1048"/>
-        <Node componentID="590" descriptorID="componentNode590" x="1136" y="1869"/>
-        <Node componentID="255" descriptorID="componentNode255" x="3805" y="1869"/>
-        <Node componentID="764" descriptorID="componentNode764" x="318" y="32"/>
-        <Node componentID="428" descriptorID="componentNode428" x="2804" y="1197"/>
-        <Node componentID="1091" descriptorID="componentNode1091" x="191" y="268"/>
-        <Node componentID="316" descriptorID="componentNode316" x="3541" y="2140"/>
-        <Node componentID="618" descriptorID="componentNode618" x="318" y="750"/>
-        <Node componentID="266" descriptorID="componentNode266" x="4036" y="1720"/>
-        <Node componentID="981" descriptorID="componentNode981" x="583" y="2709"/>
         <Node componentID="348" descriptorID="componentNode348" x="863" y="1048"/>
-        <Node componentID="554" descriptorID="componentNode554" x="2545" y="1048"/>
-        <Node componentID="782" descriptorID="componentNode782" x="1136" y="181"/>
-        <Node componentID="512" descriptorID="componentNode512" x="1680" y="2373"/>
-        <Node componentID="652" descriptorID="componentNode652" x="1136" y="1197"/>
-        <Node componentID="101" descriptorID="componentNode101" x="863" y="330"/>
-        <Node componentID="291" descriptorID="componentNode291" x="318" y="2522"/>
-        <Node componentID="760" descriptorID="componentNode760" x="3805" y="1197"/>
-        <Node componentID="134" descriptorID="componentNode134" x="1403" y="330"/>
-        <Node componentID="378" descriptorID="componentNode378" x="1403" y="32"/>
-        <Node componentID="344" descriptorID="componentNode344" x="583" y="899"/>
-        <Node componentID="541" descriptorID="componentNode541" x="1680" y="1869"/>
-        <Node componentID="1089" descriptorID="componentNode1089" x="36" y="122"/>
-        <Node componentID="325" descriptorID="componentNode325" x="1949" y="750"/>
+        <Node componentID="984" descriptorID="componentNode984" x="1403" y="2858"/>
+        <Node componentID="890" descriptorID="componentNode890" x="1403" y="2140"/>
         <Node componentID="2" descriptorID="componentNode2" x="3284" y="899"/>
-        <Node componentID="1041" descriptorID="componentNode1041" x="3284" y="2373"/>
+        <Node componentID="223" descriptorID="componentNode223" x="3042" y="1720"/>
         <Node componentID="32" descriptorID="componentNode32" x="1403" y="750"/>
-        <Node componentID="573" descriptorID="componentNode573" x="2232" y="899"/>
-        <Node componentID="565" descriptorID="componentNode565" x="2232" y="1869"/>
-        <Node componentID="609" descriptorID="componentNode609" x="34" y="1197"/>
-        <Node componentID="1056" descriptorID="componentNode1056" x="131" y="508"/>
+        <Node componentID="777" descriptorID="componentNode777" x="583" y="181"/>
+        <Node componentID="101" descriptorID="componentNode101" x="863" y="330"/>
+        <Node componentID="216" descriptorID="componentNode216" x="3541" y="1048"/>
+        <Node componentID="791" descriptorID="componentNode791" x="2232" y="181"/>
+        <Node componentID="151" descriptorID="componentNode151" x="1136" y="580"/>
         <Node componentID="683" descriptorID="componentNode683" x="34" y="2709"/>
+        <Node componentID="530" descriptorID="componentNode530" x="1136" y="2709"/>
+        <Node componentID="973" descriptorID="componentNode973" x="2232" y="2709"/>
+        <Node componentID="1034" descriptorID="componentNode1034" x="3042" y="2522"/>
+        <Node componentID="188" descriptorID="componentNode188" x="1949" y="32"/>
+        <Node componentID="312" descriptorID="componentNode312" x="3541" y="1720"/>
+        <Node componentID="852" descriptorID="componentNode852" x="2804" y="899"/>
+        <Node componentID="512" descriptorID="componentNode512" x="1680" y="2373"/>
+        <Node componentID="771" descriptorID="componentNode771" x="4292" y="1197"/>
+        <Node componentID="593" descriptorID="componentNode593" x="1680" y="1197"/>
+        <Node componentID="720" descriptorID="componentNode720" x="1949" y="1720"/>
+        <Node componentID="266" descriptorID="componentNode266" x="4036" y="1720"/>
+        <Node componentID="429" descriptorID="componentNode429" x="2232" y="1197"/>
+        <Node componentID="747" descriptorID="componentNode747" x="3284" y="1197"/>
+        <Node componentID="760" descriptorID="componentNode760" x="3805" y="1197"/>
+        <Node componentID="1002" descriptorID="componentNode1002" x="34" y="1869"/>
+        <Node componentID="656" descriptorID="componentNode656" x="1136" y="899"/>
+        <Node componentID="898" descriptorID="componentNode898" x="1949" y="2858"/>
+        <Node componentID="648" descriptorID="componentNode648" x="583" y="2373"/>
+        <Node componentID="1026" descriptorID="componentNode1026" x="3042" y="2140"/>
+        <Node componentID="269" descriptorID="componentNode269" x="34" y="2373"/>
+        <Node componentID="245" descriptorID="componentNode245" x="3284" y="1869"/>
+        <Node componentID="168" descriptorID="componentNode168" x="1403" y="1720"/>
+        <Node componentID="541" descriptorID="componentNode541" x="1680" y="1869"/>
+        <Node componentID="501" descriptorID="componentNode501" x="2545" y="2858"/>
+        <Node componentID="652" descriptorID="componentNode652" x="1136" y="1197"/>
+        <Node componentID="974" descriptorID="componentNode974" x="863" y="1720"/>
+        <Node componentID="618" descriptorID="componentNode618" x="318" y="750"/>
+        <Node componentID="819" descriptorID="componentNode819" x="318" y="330"/>
+        <Node componentID="824" descriptorID="componentNode824" x="1680" y="181"/>
+        <Node componentID="378" descriptorID="componentNode378" x="1403" y="32"/>
+        <Node componentID="255" descriptorID="componentNode255" x="3805" y="1869"/>
+        <Node componentID="291" descriptorID="componentNode291" x="318" y="2522"/>
+        <Node componentID="1056" descriptorID="componentNode1056" x="131" y="508"/>
+        <Node componentID="242" descriptorID="componentNode242" x="1949" y="1048"/>
+        <Node componentID="1023" descriptorID="componentNode1023" x="2545" y="2140"/>
+        <Node componentID="698" descriptorID="componentNode698" x="583" y="1869"/>
+        <Node componentID="316" descriptorID="componentNode316" x="3541" y="2140"/>
+        <Node componentID="354" descriptorID="componentNode354" x="1949" y="330"/>
+        <Node componentID="558" descriptorID="componentNode558" x="2232" y="2373"/>
+        <Node componentID="924" descriptorID="componentNode924" x="863" y="2522"/>
+        <Node componentID="572" descriptorID="componentNode572" x="2545" y="750"/>
+        <Node componentID="782" descriptorID="componentNode782" x="1136" y="181"/>
+        <Node componentID="874" descriptorID="componentNode874" x="318" y="1048"/>
         <Node componentID="954" descriptorID="componentNode954" x="863" y="2140"/>
+        <Node componentID="436" descriptorID="componentNode436" x="2545" y="1720"/>
     </FlowScene>
 </VisualDesign>

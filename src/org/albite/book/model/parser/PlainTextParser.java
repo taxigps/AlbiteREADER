@@ -4,6 +4,7 @@
  */
 
 package org.albite.book.model.parser;
+import org.albite.lang.AlbiteCharacter;
 
 /**
  *
@@ -27,7 +28,7 @@ public class PlainTextParser extends TextParser {
          * parsing normal text; stopping at stop-chars or end of textbuffer
          */
         for (int i = position; i < textSize; i++) {
-            if (isWhiteSpace(text[i]) || isNewLine(text[i])) {
+            if (isWhiteSpace(text[i]) || isNewLine(text[i]) || (i > position && AlbiteCharacter.isChinese(text[i]))) {
                 length = i - position;
                 return true;
             }

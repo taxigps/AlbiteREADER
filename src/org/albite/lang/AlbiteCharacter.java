@@ -232,7 +232,14 @@ public class AlbiteCharacter {
         return (A[Y[(X[ch>>6]<<5)|((ch>>1)&0x1F)]|(ch&0x1)] & 0x1F) == DECIMAL_DIGIT_NUMBER;
     }
 
-    /**
+   /**
+    * Determines if the specified character is a Chinese character.
+    */
+    public static boolean isChinese(final char ch) {
+        return ch >= 0x4e00 && ch <= 0x9fff;
+    }
+
+   /**
      * The given character is mapped to its lowercase equivalent; if the
      * character has no lowercase equivalent, the character itself is
      * returned.

@@ -9,6 +9,7 @@ import org.albite.albite.ColorScheme;
 import org.albite.font.AlbiteFont;
 import org.albite.io.RandomReadingFile;
 import org.albite.util.archive.Archive;
+import org.albite.lang.AlbiteCharacter;
 //#if !(TinyMode || TinyModeExport || LightMode || LightModeExport)
 import org.geometerplus.zlibrary.text.hyphenation.ZLTextHyphenationInfo;
 import org.geometerplus.zlibrary.text.hyphenation.ZLTextTeXHyphenator;
@@ -319,7 +320,7 @@ public class TextPage
                         wordPixelWidth = font.charsWidth(buffer,
                                 parser.position, parser.length);
 
-                        if (!firstWord) {
+                        if (!firstWord  && !(AlbiteCharacter.isChinese(buffer[parser.position]))) {
                             /*
                              * If it is not the first word, it will need the
                              * space(s) before it
@@ -361,7 +362,7 @@ public class TextPage
                                             new TextRegion((short) 0, (short) 0,
                                             (short) wordPixelWidth,
                                             (short) fontHeight, parser.position,
-                                            parser.length, style, color));
+                                            parser.length, style, color, AlbiteCharacter.isChinese(buffer[parser.position])));
                                 }
                             }
 
@@ -428,6 +429,7 @@ public class TextPage
                                                     parser.length,
                                                     style,
                                                     color,
+                                                    AlbiteCharacter.isChinese(buffer[parser.position]),
                                                     parser.position,
                                                     i);
                                                 }
@@ -495,6 +497,7 @@ public class TextPage
                                                     parser.length,
                                                     style,
                                                     color,
+                                                    AlbiteCharacter.isChinese(buffer[parser.position]),
                                                     parser.position,
                                                     parser.length);
                                             }
@@ -587,20 +590,23 @@ public class TextPage
                 x = fontIndent;
             }
 
+            int spaceNum = 0;
             for (int i = 0; i < wordsSize; i++) {
                 TextRegion word = (TextRegion) words.elementAt(i);
                 textWidth += word.width; //compute width without spaces
+                if (i > 0) {
+                    if (!word.chinese) {
+                        spaceNum++;
+                    }
+                }
             }
 
-            final int ltw = lineWidth - textWidth;
+            final int ltw = lineWidth - textWidth - spaceNum * wordSpacing;
             int spacing = 0;
             int additionalSpacing = 0;
 
-            /* set spacing */
-            if (align != JUSTIFY) {
-                spacing = wordSpacing;
-            } else {
-                /* calculate spacing so words would be justified */
+            /* calculate spacing so words would be justified */
+            if (align == JUSTIFY) {
                 if (words.size() > 1) {
                     spacing = ltw / wordsSize1;
                     additionalSpacing = ltw % wordsSize1;
@@ -609,7 +615,7 @@ public class TextPage
             
             /* calc X so that the block would be centered */
             if (align == CENTER) {
-                x = (ltw - (spacing * wordsSize1) ) / 2;
+                x = ltw / 2;
             }
 
 //            /* align right */
@@ -623,15 +629,21 @@ public class TextPage
                 word.x = (short) x;
                 word.y = (short) lineY;
 
-                x += word.width + spacing;
-                if (i == 0) {
-                    x += additionalSpacing;
-                }
-
+                x += word.width;
                 if (i < wordsSize1) {
-                    word.width += (short) spacing;
-                    if (i == 0) {
-                        word.width += (short) additionalSpacing;
+                    TextRegion word1 = (TextRegion)words.elementAt(i + 1);
+                    if (!word1.chinese){
+                         x += wordSpacing;
+                         word.width += (short) wordSpacing;
+                    }
+                    if (align == JUSTIFY) {
+                        x += spacing;
+                        word.width += (short) spacing;
+                        if (additionalSpacing > 0) {
+                            x++;
+                            word.width++;
+                            additionalSpacing--;
+                        }
                     }
                 }
 

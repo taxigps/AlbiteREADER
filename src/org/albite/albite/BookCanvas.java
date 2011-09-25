@@ -285,8 +285,8 @@ public class BookCanvas extends Canvas {
             currentMarginWidth = 10;
             renderImages = true;
             frameTime = 1000 / 60;
-            fontSizes = new byte[] {12, 14, 16, 18};
-            currentFontSizeIndex = (byte) 2;
+            fontSizes = new byte[] {16, 20};
+            currentFontSizeIndex = (byte) 0;
             fullscreen = false;
             smoothScrolling = true;
         //#endif

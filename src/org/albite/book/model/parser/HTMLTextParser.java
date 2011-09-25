@@ -10,6 +10,7 @@ import org.albite.albite.AlbiteMIDlet;
 import org.albite.book.view.StylingConstants;
 import org.albite.io.html.HTMLSubstitues;
 import org.albite.io.html.XhtmlStreamReader;
+import org.albite.lang.AlbiteCharacter;
 
 ////#define DEBUG_PARSER
 
@@ -136,7 +137,7 @@ public class HTMLTextParser extends TextParser
         state = (ignoreTag > 0 ? STATE_PASS : STATE_TEXT);
         for (int i = position; i < textSize; i++) {
             ch = text[i];
-            if (isWhiteSpace(ch) || isNewLine(ch) || ch == START_TAG_CHAR) {
+            if (isWhiteSpace(ch) || isNewLine(ch) || ch == START_TAG_CHAR || (i > position && AlbiteCharacter.isChinese(ch))) {
                 length = i - position;
                 
                 //#ifdef DEBUG_PARSER
