@@ -45,6 +45,13 @@ abstract class AlbiteCharacterDecoder {
         }
 
         /*
+         * GBK
+         */
+        if (match(encoding, Encodings.GBK_ALIASES)) {
+            return DecoderGBK.getInstance();
+        }
+
+        /*
          * ISO-8859-X
          */
         if (match(encoding, Encodings.ISO_8859_1_ALIASES)) {

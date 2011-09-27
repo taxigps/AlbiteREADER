@@ -26,6 +26,16 @@ public interface Encodings {
 
     public static final String UTF_8 = UTF_8_ALIASES[0];
 
+    /*
+     * GBK
+     * --------------------------------------------------------------------
+     */
+    public static final String[] GBK_ALIASES = new String[] {
+        "gbk"
+    };
+
+    public static final String GBK = GBK_ALIASES[0];
+
     //#if !(TinyMode || TinyModeExport)
     /*
      * US ASCII
@@ -288,6 +298,7 @@ public interface Encodings {
 
     public static final String[] ENCODINGS = {
         UTF_8,
+        GBK,
         //#if !(TinyMode || TinyModeExport)
         ASCII,
         //#endif
@@ -320,6 +331,7 @@ public interface Encodings {
 
     public static final String[][] ALIASES = {
         UTF_8_ALIASES,
+        GBK_ALIASES,
         //#if !(TinyMode || TinyModeExport)
         ASCII_ALIASES,
         //#endif
