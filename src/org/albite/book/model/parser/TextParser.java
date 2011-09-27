@@ -167,7 +167,8 @@ public abstract class TextParser {
         return     c == ' '
                 || c == '\t'
                 || c == 0 //null char
-                || c == '\uFEFF'; //BOM
+                || c == '\uFEFF' //BOM
+                || c == '　'; //chinese space
     }
 
     protected final boolean isNewLine(final char c) {
