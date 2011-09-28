@@ -147,16 +147,28 @@ public abstract class TextParser {
                 length = 1;
                 return true;
             }
-        }
-        //skip the blank space
-        for (int i = newPosition; i < textSize; i++) {
-            ch = text[i];
-            if (isWhiteSpace(ch) || isNewLine(ch)) {
-                continue;
-            }
+            //skip the blank space
+            for (int i = newPosition; i < textSize; i++) {
+                ch = text[i];
+                if (isWhiteSpace(ch)) {
+                    continue;
+                }
 
-            position = i;
-            return false;
+                position = i;
+                return false;
+            }
+        }
+        else {
+            //skip the blank space
+            for (int i = newPosition; i < textSize; i++) {
+                ch = text[i];
+                if (isWhiteSpace(ch) || isNewLine(ch)) {
+                    continue;
+                }
+
+                position = i;
+                return false;
+            }
         }
 
         position = textSize;
