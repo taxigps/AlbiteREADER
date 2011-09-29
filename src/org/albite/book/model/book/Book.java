@@ -668,9 +668,9 @@ public abstract class Book
     //#elif (LightMode || LightModeExport)
 //#         public static final int MAXIMUM_TXT_FILESIZE = 24 * 1024;
     //#elif (HDMode || HDModeExport)
-//#         public static final int MAXIMUM_TXT_FILESIZE = 128 * 1024;
+//#         public static final int MAXIMUM_TXT_FILESIZE = 64 * 1024;
     //#else
-        public static final int MAXIMUM_TXT_FILESIZE = 64 * 1024;
+        public static final int MAXIMUM_TXT_FILESIZE = 32 * 1024;
     //#endif
     
     //#if (TinyMode || TinyModeExport)
@@ -678,9 +678,9 @@ public abstract class Book
     //#elif (LightMode || LightModeExport)
 //#         public static final int MAXIMUM_HTML_FILESIZE = 48 * 1024;
     //#elif (HDMode || HDModeExport)
-//#         public static final int MAXIMUM_HTML_FILESIZE = 512 * 1024;
+//#         public static final int MAXIMUM_HTML_FILESIZE = 256 * 1024;
     //#else
-        public static final int MAXIMUM_HTML_FILESIZE = 192 * 1024;
+        public static final int MAXIMUM_HTML_FILESIZE = 96 * 1024;
     //#endif
 
     protected final int getMaximumHtmlFilesize(final boolean lightMode) {

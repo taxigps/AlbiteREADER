@@ -277,16 +277,16 @@ public class BookCanvas extends Canvas {
 //#             currentMarginWidth = 15;
 //#             renderImages = true;
 //#             frameTime = 1000 / 60;
-//#             fontSizes = new byte[] {16, 18, 24, 28};
-//#             currentFontSizeIndex = (byte) 2;
+//#             fontSizes = new byte[] {12, 16};
+//#             currentFontSizeIndex = (byte) 1;
 //#             fullscreen = false;
 //#             smoothScrolling = true;
         //#else
             currentMarginWidth = 10;
             renderImages = true;
             frameTime = 1000 / 60;
-            fontSizes = new byte[] {16, 20};
-            currentFontSizeIndex = (byte) 0;
+            fontSizes = new byte[] {12, 16};
+            currentFontSizeIndex = (byte) 1;
             fullscreen = false;
             smoothScrolling = true;
         //#endif
@@ -1856,8 +1856,6 @@ public class BookCanvas extends Canvas {
 
         try {
             font = new AlbiteFont(fontName);
-        } catch (IOException ioe) {
-            throw new RuntimeException("Couldn't load font.");
         } catch (AlbiteFontException afe) {
             throw new RuntimeException("Couldn't load font.");
         }
