@@ -7,6 +7,7 @@ package org.albite.font;
 
 import javax.microedition.lcdui.Graphics;
 import javax.microedition.lcdui.Font;
+import java.util.Hashtable;
 
 /**
  *
@@ -28,6 +29,8 @@ public class AlbiteFont {
     public final int                dashWidth;
     public final int                questionWidth;
 
+    private Hashtable glyphs = new Hashtable();
+    
     private int parseFontSize( String fontname ) {
         int pos = fontname.lastIndexOf( '_' );
         if( pos==-1 )
@@ -88,7 +91,15 @@ public class AlbiteFont {
     }
 
     public final int charWidth(char c) {
-        return font.charWidth( c );
+        Integer w = (Integer) glyphs.get(new Character(c));
+        if (w == null) {
+            int res = font.charWidth( c );
+            glyphs.put(new Character(c), new Integer(res));
+            return res;
+        }
+        else {
+            return w.intValue();
+        }
     }
 
     public final int charsWidth(final char[] c) {
