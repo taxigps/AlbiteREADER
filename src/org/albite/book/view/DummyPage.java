@@ -27,25 +27,25 @@ public class DummyPage extends Page {
     private byte type;
 
     final public static char[]  LABEL_CHAPTER_PREV =
-            "- Previous chapter -".toCharArray();
+            "- 前一章 -".toCharArray();
 
     final public static char[]  LABEL_CHAPTER_NEXT =
-            "- Next chapter -".toCharArray();
+            "- 后一章 -".toCharArray();
 
     final public static char[]  LABEL_BOOK_START =
-            "- Start of book -".toCharArray();
+            "- 书首 -".toCharArray();
 
     final public static char[]  LABEL_BOOK_END =
-            "- End of book -".toCharArray();
+            "- 书尾 -".toCharArray();
 
     final public static char[]  LABEL_EMPTY_CHAPTER =
-            "- Empty chapter -".toCharArray();
+            "- 空章节 -".toCharArray();
 
     final public static char[]  LABEL_CHAPTER_TOO_BIG =
-            "- Chapter too big -".toCharArray();
+            "- 章节过大 -".toCharArray();
 
     final public static char[] LABEL_CHAPTER_ERROR =
-            "- Chapter error -".toCharArray();
+            "- 章节错误 -".toCharArray();
 
     public DummyPage(final Booklet booklet, final byte pageType) {
         if (pageType < 0 || pageType >= TYPE_COUNT) {

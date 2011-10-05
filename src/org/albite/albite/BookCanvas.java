@@ -935,7 +935,7 @@ public class BookCanvas extends Canvas {
 //#                         app.showMenu();
                     //#else
                         if (!seenFullscreenAlert && !fullscreen) {
-                            Alert fsAlert = new Alert("See here.", "You're entering into fullscreen mode. To restore the menu on the top, just tap the centre of the screen.", null, AlertType.INFO);
+                            Alert fsAlert = new Alert("注意。", "你已进入全屏模式。点击屏幕中部可恢复显示顶部菜单。", null, AlertType.INFO);
                             fsAlert.setTimeout(10000);
                             seenFullscreenAlert = true;
                             app.switchDisplayable(fsAlert, this);
