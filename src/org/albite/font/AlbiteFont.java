@@ -15,7 +15,7 @@ import java.util.Hashtable;
  * @author Albus Dumbledore
  */
 public class AlbiteFont {
-    protected static final String INVALID_FILE_ERROR = "ALF file is corrupted.";
+    protected static final String   INVALID_FILE_ERROR = "错误的字体。";
     protected final String          fontname;
     public    final int             lineHeight;
     public    final int             lineSpacing;
@@ -25,7 +25,7 @@ public class AlbiteFont {
      * shared by all requests
      */
     private   final Font            font;
-    
+    protected final int[]           imageBuffer;
     public final int                spaceWidth;
     public final int                dashWidth;
     public final int                questionWidth;
@@ -68,6 +68,7 @@ public class AlbiteFont {
         
         lineSpacing = 0;
         lineHeight = font.getHeight();
+        imageBuffer = new int[lineHeight * lineHeight * 2];
 
         maximumWidth = charWidth('8');
         spaceWidth = maximumWidth;
@@ -91,35 +92,40 @@ public class AlbiteFont {
         return res;
     }
 
-    private Glyph createGlyph(char c) {
+    private byte getMask(int c) {
+        int p1, p2, p3;
+        p1 = (c & 0x00FF0000) >> 16; // Red level
+        p2 = (c & 0x0000FF00) >> 8; // Green level
+        p3 = c & 0x000000FF; // Blue level
+        byte nc = (byte)(0xFF - (p1 / 3 + p2 / 3 + p3 / 3));     // gray value
+        return nc;
+    }
+    
+    private Glyph cacheGlyph(char c) {
         int width = font.charWidth( c );
         Image image = Image.createImage(width, lineHeight);
         Graphics g = image.getGraphics();
 
-        // Set background color to white
-        g.setColor(0xFFFFFF); 
-        g.fillRect(0, 0, width, lineHeight); 
         g.setFont(font);
-        // Set color to black and draw character
         g.setColor(0);
         g.drawChar(c, 0, 0, Graphics.TOP |Graphics.LEFT);
-        // Get RGB data and set white color as Transparent color
-        int[] bitmap = new int[width * lineHeight];
-        image.getRGB(bitmap, 0, width, 0, 0, width, lineHeight);
+        image.getRGB(imageBuffer, 0, width, 0, 0, width, lineHeight);
+
+        // Calculate font mask
+        byte[] bitmap = new byte[width * lineHeight];
         for (int i = 0; i < lineHeight * width; i++) {
-            if((bitmap[i] & 0x00FFFFFF) == 0x00FFFFFF) { 
-                bitmap[i] = bitmap[i] & 0x00FFFFFF;
-            } 
+            bitmap[i] = getMask(imageBuffer[i]);
         }
-        return new Glyph(width, bitmap);
+
+        Glyph glyph = new Glyph(width, bitmap);
+        glyphs.put(new Character(c), glyph);
+        return glyph;
     }
-            
 
     public final int charWidth(char c) {
         Glyph glyph = (Glyph) glyphs.get(new Character(c));
         if (glyph == null) {
-            glyph = createGlyph(c);
-            glyphs.put(new Character(c), glyph);
+            glyph = cacheGlyph(c);
         }
         return glyph.width;
     }
@@ -161,14 +167,13 @@ public class AlbiteFont {
 
         Glyph glyph = (Glyph) glyphs.get(new Character((char)c));
         if (glyph == null) {
-            glyph = createGlyph((char)c);
-            glyphs.put(new Character((char)c), glyph);
+            glyph = cacheGlyph((char)c);
         }
         for (int i = 0; i < lineHeight * glyph.width; i++) {
             /* mask + add color */ 
-            glyph.bitmap[i] = (glyph.bitmap[i] & 0xFF000000) + color;
+            imageBuffer[i] = ((int)glyph.bitmap[i] << 24) | color;
         }
-        g.drawRGB(glyph.bitmap, 0, glyph.width, 
+        g.drawRGB(imageBuffer, 0, glyph.width, 
                 x, y, 
                 glyph.width, lineHeight, true); 
     }

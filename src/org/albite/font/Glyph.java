@@ -11,11 +11,11 @@ package org.albite.font;
  */
 public class Glyph {
     protected final int width;
-    protected final int[] bitmap;
+    protected final byte[] bitmap;
 
     public Glyph(
             final int width,
-            final int[] bitmap) {
+            final byte[] bitmap) {
 
         this.width = width;
         this.bitmap = bitmap;
