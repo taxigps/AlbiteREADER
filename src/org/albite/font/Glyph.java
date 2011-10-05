@@ -10,26 +10,14 @@ package org.albite.font;
  * @author Albus Dumbledore
  */
 public class Glyph {
-    protected final short x;
-    protected final short y;
-    protected final short width;
-    protected final short height;
-    protected final short xoffset;
-    protected final short yoffset;
-    protected final short xadvance;
+    protected final int width;
+    protected final int[] bitmap;
 
     public Glyph(
-            final short x, final short y,
-            final short width, final short height,
-            final short xoffset, final short yoffset,
-            final short xadvance) {
+            final int width,
+            final int[] bitmap) {
 
-        this.x = x;
-        this.y = y;
         this.width = width;
-        this.height = height;
-        this.xoffset = xoffset;
-        this.yoffset = yoffset;
-        this.xadvance = xadvance;
+        this.bitmap = bitmap;
     }
 }
