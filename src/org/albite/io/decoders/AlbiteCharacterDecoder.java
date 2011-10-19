@@ -45,6 +45,13 @@ abstract class AlbiteCharacterDecoder {
         }
 
         /*
+         * UNICODE
+         */
+        if (match(encoding, Encodings.UNICODE_ALIASES)) {
+            return DecoderUNICODE.getInstance();
+        }
+
+        /*
          * GBK
          */
         if (match(encoding, Encodings.GBK_ALIASES)) {
