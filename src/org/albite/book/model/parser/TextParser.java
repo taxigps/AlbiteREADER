@@ -141,7 +141,7 @@ public abstract class TextParser {
                 return true;
             }
 
-            if (ch == '\n') {
+            if (ch == '\n' || ch == '\u2029') {
                 //catch single LFs
                 state = TextParser.STATE_NEW_LINE;
                 length = 1;
@@ -185,6 +185,7 @@ public abstract class TextParser {
 
     protected final boolean isNewLine(final char c) {
         return c == '\n'
+                || c == '\u2029'
                 || c == '\r'
                 || c == '\f';
     }
