@@ -607,7 +607,30 @@ public abstract class Book
         }
     }
 
+
     protected final void splitChapterIntoPieces(
+            final InputConnection chapterFile,
+            final int chapterFilesize,
+            final File pathReference,
+            final int maxChapterSize,
+            final int chapterNumber,
+            final boolean processHtmlEntities,
+            final Vector chapters
+            ) throws IOException, BookException {
+        
+        splitChapterIntoPieces(
+                "章节 #" + (chapterNumber + 1),
+                chapterFile,
+                chapterFilesize,
+                pathReference,
+                maxChapterSize,
+                chapterNumber,
+                processHtmlEntities,
+                chapters);
+    }
+    
+    protected final void splitChapterIntoPieces(
+            final String chapterTitle,
             final InputConnection chapterFile,
             final int chapterFilesize,
             final File pathReference,
@@ -620,7 +643,7 @@ public abstract class Book
         if (chapterFilesize <= maxChapterSize) {
             chapters.addElement(new Chapter(
                         chapterFile, chapterFilesize, pathReference,
-                        "章节 #" + (chapterNumber + 1),
+                        chapterTitle,
                         processHtmlEntities, chapterNumber)
             );
 
@@ -643,7 +666,7 @@ public abstract class Book
                             chapterFile, k * maxChapterSize, chapSize),
                         chapSize,
                         pathReference,
-                        "章节 #" + (chapterNumber + k + 1),
+                        chapterTitle + " #" + (k + 1),
                         processHtmlEntities,
                         chapterNumber + k
                         ));

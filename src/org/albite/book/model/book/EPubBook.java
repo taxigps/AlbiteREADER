@@ -312,6 +312,26 @@ public class EPubBook extends Book {
                 }
 
                 try {
+                    // 处理章节目录名称
+                    Hashtable titles = new Hashtable();
+                    Element guide = getElement(root, "guide");
+                    
+                    if (guide != null) {
+                        for (int i = 0; i < guide.getChildCount(); i++) {
+                            if (guide.getType(i) != Node.ELEMENT) {
+                                continue;
+                            }
+                            kid = guide.getElement(i);
+                            if (kid.getName().equalsIgnoreCase("reference")) {
+                                String chaptitle = kid.getAttributeValue(
+                                        KXmlParser.NO_NAMESPACE, "title");
+                                String href = kid.getAttributeValue(
+                                        KXmlParser.NO_NAMESPACE, "href");
+                                titles.put(href, chaptitle);
+                            }
+                        }
+                    }
+                    
                     /*
                      * Parse the spine and create the chapters
                      */
@@ -349,15 +369,29 @@ public class EPubBook extends Book {
                                          */
 //                                        final Chapter cur = loadChapter(
 //                                                entry, chaps.size());
-                                        splitChapterIntoPieces(
-                                                entry,
-                                                entry.fileSize(),
-                                                entry,
-                                                MAXIMUM_HTML_FILESIZE,
-                                                chaps.size(),
-                                                true,
-                                                chaps
-                                                );
+                                        String chaptitle = (String) titles.get(href);
+                                        if (chaptitle == null) {
+                                            splitChapterIntoPieces(
+                                                    entry,
+                                                    entry.fileSize(),
+                                                    entry,
+                                                    MAXIMUM_HTML_FILESIZE,
+                                                    chaps.size(),
+                                                    true,
+                                                    chaps
+                                                    );
+                                        } else {
+                                            splitChapterIntoPieces(
+                                                    chaptitle,
+                                                    entry,
+                                                    entry.fileSize(),
+                                                    entry,
+                                                    MAXIMUM_HTML_FILESIZE,
+                                                    chaps.size(),
+                                                    true,
+                                                    chaps
+                                                    );
+                                        }
                                     }
                                 }
                             }
